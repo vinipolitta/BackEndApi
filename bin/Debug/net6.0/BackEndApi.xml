@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BackEndApi</name>
+    </assembly>
+    <members>
+        <member name="M:BackEndApi.Controllers.FilmeController.AdicionaFilme(BackEndApi.Data.Dtos.CreateFilmeDto)">
+            <summary>
+            Adiciona um filme ao banco de dados
+            </summary>
+            <param name="filmeDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="201">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="T:BackEndApi.Models.Cinema">
+            text        
+        </member>
+        <member name="T:BackEndApi.Profiles.CinemaProfile">
+            text
+        </member>
+        <member name="M:BackEndApi.Profiles.CinemaProfile.#ctor">
+            text
+        </member>
+    </members>
+</doc>
